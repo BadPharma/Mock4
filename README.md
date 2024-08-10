@@ -1,5 +1,5 @@
 <div align="center">
-<h2> Version PreRelease 5 </h2>
+<h2> Version PreRelease 6 </h2>
 
 
 Practice for your upcoming ITIL 4 Foundation.
