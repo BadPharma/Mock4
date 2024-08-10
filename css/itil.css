@@ -55,7 +55,6 @@
 
 body {
     font-family: Aeonik;
-    
     padding: 0;
     background-color: black;
     overflow: visible;
@@ -64,12 +63,19 @@ body {
 .container {
   height:100% ;
   margin: 20px;
+  align-items: center;
+  width: auto;
+
+  
   }
 
 h1 {
     text-align: center;
     color: #CC0033;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    position: relative;
+    
+
 }
 h4 {
     font-weight: bold;
@@ -77,13 +83,27 @@ h4 {
 }
 
 #quizContainer {
+  position: relative;
     max-width: 800px; /* Limit width for better readability */
     margin: 0 auto; /* Center the container */
     padding: 20px;
     overflow: visible; /* Ensure the container grows to fit all content */
 }
 
+#questionNav{
+  max-width: 1200px;
+  position: relative;
+  background-color: antiquewhite;
+  padding: 10px;
+  position: relative;
+  overflow:scroll ;
+ 
+}
 
+.question-nav-link{
+ margin-right: 10px;
+
+}
 
 .question {
     margin-bottom: 20px;
@@ -157,7 +177,10 @@ h3 {
     font-size: 1rem;
 
 }
-  
+
+a {
+  font-size: 0.8rem;
+}
 }
 
 

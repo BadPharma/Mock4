@@ -1275,6 +1275,27 @@ function renderQuiz() {
     const quizContainer = document.getElementById('quizContainer');
     quizContainer.innerHTML = ''; // Clear previous content
 
+    // Create a navigation div for question numbers
+    const navDiv = document.createElement('div');
+    navDiv.id = 'questionNav';
+    quizContainer.parentElement.insertBefore(navDiv, quizContainer);
+
+    // Generate navigation links
+    selectedQuestions.forEach((_, index) => {
+        const navLink = document.createElement('a');
+        navLink.textContent = index + 1;
+        navLink.href = '#';
+        navLink.className = 'question-nav-link';
+        navLink.addEventListener('click', () => navigateToCard(index));
+        navDiv.appendChild(navLink);
+
+        // Add a separator between links
+        if (index < selectedQuestions.length - 1) {
+            const separator = document.createTextNode('  ');
+            navDiv.appendChild(separator);
+        }
+    });
+
     selectedQuestions.forEach((q, index) => {
         const questionCard = document.createElement('div');
         questionCard.className = 'question-card';
