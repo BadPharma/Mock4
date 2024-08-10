@@ -150,6 +150,7 @@ h4 {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+    color: antiquewhite;
 }
 
 @media screen and (max-width: 768px) {

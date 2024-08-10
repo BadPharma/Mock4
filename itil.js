@@ -1271,7 +1271,6 @@ function selectQuestions() {
     selectedQuestions.sort(() => 0.5 - Math.random());
 }
 
-// Render the selected questions with card-style UI and navigation
 function renderQuiz() {
     const quizContainer = document.getElementById('quizContainer');
     quizContainer.innerHTML = ''; // Clear previous content
@@ -1368,53 +1367,60 @@ function navigateToCard(index) {
 // Function to handle quiz submission and highlight answers
 function submitQuiz() {
     let score = 0;
+    let unansweredQuestions = [];
 
     selectedQuestions.forEach((q, index) => {
         const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
-        const options = document.querySelectorAll(`input[name="question${index}"]`);
 
-        options.forEach(option => {
-            const optionLabel = option.parentNode;
-            // Clear previous styles
-            optionLabel.style.color = '';
-            optionLabel.style.fontWeight = '';
-        });
-
-        if (selectedOption) {
-            const selectedLabel = selectedOption.parentNode;
-            if (selectedOption.value === q.correctAnswer) {
-                score++;
-                // Highlight correct answer in green
-                selectedLabel.style.color = 'green';
-                selectedLabel.style.fontWeight = 'bold';
-            } else {
-                // Highlight incorrect answer in red
-                selectedLabel.style.color = 'red';
-                selectedLabel.style.fontWeight = 'bold';
-
-                // Find and highlight the correct answer
-                options.forEach(option => {
-                    if (option.value === q.correctAnswer) {
-                        const correctLabel = option.parentNode;
-                        correctLabel.style.color = 'green';
-                        correctLabel.style.fontWeight = 'bold';
-                    }
-                });
-            }
-        } else {
-            // If no option is selected, highlight the correct answer
-            options.forEach(option => {
-                if (option.value === q.correctAnswer) {
-                    const correctLabel = option.parentNode;
-                    correctLabel.style.color = 'green';
-                    correctLabel.style.fontWeight = 'bold';
-                }
-            });
+        if (!selectedOption) {
+            // If no option is selected, add the question to the list of unanswered questions
+            unansweredQuestions.push(index + 1);
         }
     });
 
-    const resultElement = document.getElementById('result');
-    resultElement.textContent = `You scored ${score} out of ${selectedQuestions.length}`;
+    if (unansweredQuestions.length > 0) {
+        // Show an alert listing the unanswered questions
+        alert(`Please answer the following questions before submitting: ${unansweredQuestions.join(', ')}`);
+    } else {
+        // Once all questions are answered, evaluate the answers
+        selectedQuestions.forEach((q, index) => {
+            const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
+            const options = document.querySelectorAll(`input[name="question${index}"]`);
+
+            options.forEach(option => {
+                const optionLabel = option.parentNode;
+                // Clear previous styles
+                optionLabel.style.color = '';
+                optionLabel.style.fontWeight = '';
+            });
+
+            if (selectedOption) {
+                const selectedLabel = selectedOption.parentNode;
+                if (selectedOption.value === q.correctAnswer) {
+                    score++;
+                    // Highlight correct answer in green
+                    selectedLabel.style.color = 'green';
+                    selectedLabel.style.fontWeight = 'bold';
+                } else {
+                    // Highlight incorrect answer in red
+                    selectedLabel.style.color = 'red';
+                    selectedLabel.style.fontWeight = 'bold';
+
+                    // Find and highlight the correct answer
+                    options.forEach(option => {
+                        if (option.value === q.correctAnswer) {
+                            const correctLabel = option.parentNode;
+                            correctLabel.style.color = 'green';
+                            correctLabel.style.fontWeight = 'bold';
+                        }
+                    });
+                }
+            }
+        });
+
+        const resultElement = document.getElementById('result');
+        resultElement.textContent = `You scored ${score} out of ${selectedQuestions.length}`;
+    }
 }
 
 // Initialize the quiz
