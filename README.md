@@ -8,6 +8,7 @@ If you refresh the test a new one will begin. There are ove 40'000 combinations 
 Good luck!!
 
 Just download the files and run it on your local sever from your editor. 
+
 Going to avoid hosting this due to probable legal issues
 </div
 
