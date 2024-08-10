@@ -1276,12 +1276,16 @@ function renderQuiz() {
     const quizContainer = document.getElementById('quizContainer');
     quizContainer.innerHTML = ''; // Clear previous content
 
+    // Initialize question number counter
+    let questionNumber = 1;
+
     selectedQuestions.forEach((q, index) => {
         const questionElement = document.createElement('div');
         questionElement.className = 'question';
 
         const questionTitle = document.createElement('h3');
-        questionTitle.textContent = q.question;
+        // Add question number before the question text
+        questionTitle.textContent = `${questionNumber}. ${q.question}`;
 
         questionElement.appendChild(questionTitle);
 
@@ -1302,6 +1306,9 @@ function renderQuiz() {
 
         questionElement.appendChild(optionsElement);
         quizContainer.appendChild(questionElement);
+
+        // Increment the question number counter
+        questionNumber++;
     });
 }
 
