@@ -1276,6 +1276,11 @@ function renderQuiz() {
     const quizContainer = document.getElementById('quizContainer');
     quizContainer.innerHTML = ''; // Clear previous content
 
+    // Add "Flag question" label at the top of the page
+    const flagLabelHeader = document.createElement('h4');
+    flagLabelHeader.textContent = 'Flag';
+    quizContainer.appendChild(flagLabelHeader);
+
     // Initialize question number counter
     let questionNumber = 1;
 
@@ -1283,11 +1288,35 @@ function renderQuiz() {
         const questionElement = document.createElement('div');
         questionElement.className = 'question';
 
-        const questionTitle = document.createElement('h3');
-        // Add question number before the question text
-        questionTitle.textContent = `${questionNumber}. ${q.question}`;
+        // Create a container for the flag and question title
+        const questionHeader = document.createElement('div');
+        questionHeader.className = 'question-header';
 
-        questionElement.appendChild(questionTitle);
+        // Create flag checkbox
+        const flagCheckbox = document.createElement('input');
+        flagCheckbox.type = 'checkbox';
+        flagCheckbox.id = `flag${index}`;
+        flagCheckbox.name = `flag${index}`;
+
+        // Add event listener to highlight the question when flagged
+        flagCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                questionElement.style.backgroundColor = 'yellow';
+            } else {
+                questionElement.style.backgroundColor = ''; // Reset to default
+            }
+        });
+
+        // Create question title
+        const questionTitle = document.createElement('h3');
+        questionTitle.textContent = `${questionNumber}. ${q.question}`;
+        
+        // Append checkbox and question title to the question header
+        questionHeader.appendChild(flagCheckbox);
+        questionHeader.appendChild(questionTitle);
+
+        // Append the question header to the question element
+        questionElement.appendChild(questionHeader);
 
         const optionsElement = document.createElement('div');
         optionsElement.className = 'options';

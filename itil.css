@@ -7,6 +7,11 @@ body {
 h1 {
     text-align: center;
 }
+h4 {
+    font-weight: bold;
+    margin-bottom: 1px; /* Add space between the label and the first question */
+}
+
 .question {
     margin-bottom: 20px;
 }
@@ -17,6 +22,14 @@ h1 {
     display: block;
     margin-bottom: 5px;
     cursor: pointer;
+}
+.question-header {
+    display: flex;
+    align-items: center;
+}
+
+.question-header h3 {
+    margin-left: 10px; /* Adjust the spacing between checkbox and question title */
 }
 #submitButton {
     margin-top: 20px;
