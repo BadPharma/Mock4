@@ -1271,22 +1271,15 @@ function selectQuestions() {
     selectedQuestions.sort(() => 0.5 - Math.random());
 }
 
-// Render the selected questions
+// Render the selected questions with card-style UI and navigation
 function renderQuiz() {
     const quizContainer = document.getElementById('quizContainer');
     quizContainer.innerHTML = ''; // Clear previous content
 
-    // Add "Flag question" label at the top of the page
-    const flagLabelHeader = document.createElement('h4');
-    flagLabelHeader.textContent = 'Flag';
-    quizContainer.appendChild(flagLabelHeader);
-
-    // Initialize question number counter
-    let questionNumber = 1;
-
     selectedQuestions.forEach((q, index) => {
-        const questionElement = document.createElement('div');
-        questionElement.className = 'question';
+        const questionCard = document.createElement('div');
+        questionCard.className = 'question-card';
+        questionCard.style.display = index === 0 ? 'block' : 'none'; // Show only the first card initially
 
         // Create a container for the flag and question title
         const questionHeader = document.createElement('div');
@@ -1301,22 +1294,22 @@ function renderQuiz() {
         // Add event listener to highlight the question when flagged
         flagCheckbox.addEventListener('change', function() {
             if (this.checked) {
-                questionElement.style.backgroundColor = 'yellow';
+                questionCard.style.backgroundColor = 'yellow';
             } else {
-                questionElement.style.backgroundColor = ''; // Reset to default
+                questionCard.style.backgroundColor = ''; // Reset to default
             }
         });
 
         // Create question title
         const questionTitle = document.createElement('h3');
-        questionTitle.textContent = `${questionNumber}. ${q.question}`;
+        questionTitle.textContent = `${index + 1}. ${q.question}`;
         
         // Append checkbox and question title to the question header
         questionHeader.appendChild(flagCheckbox);
         questionHeader.appendChild(questionTitle);
 
-        // Append the question header to the question element
-        questionElement.appendChild(questionHeader);
+        // Append the question header to the question card
+        questionCard.appendChild(questionHeader);
 
         const optionsElement = document.createElement('div');
         optionsElement.className = 'options';
@@ -1333,11 +1326,42 @@ function renderQuiz() {
             optionsElement.appendChild(optionLabel);
         });
 
-        questionElement.appendChild(optionsElement);
-        quizContainer.appendChild(questionElement);
+        questionCard.appendChild(optionsElement);
 
-        // Increment the question number counter
-        questionNumber++;
+        // Navigation buttons
+        const navButtons = document.createElement('div');
+        navButtons.className = 'nav-buttons';
+
+        if (index > 0) {
+            const prevButton = document.createElement('button');
+            prevButton.textContent = 'Previous';
+            prevButton.addEventListener('click', () => navigateToCard(index - 1));
+            navButtons.appendChild(prevButton);
+        }
+
+        if (index < selectedQuestions.length - 1) {
+            const nextButton = document.createElement('button');
+            nextButton.textContent = 'Next';
+            nextButton.addEventListener('click', () => navigateToCard(index + 1));
+            navButtons.appendChild(nextButton);
+        } else {
+            // Add the Submit button to the last card
+            const submitButton = document.createElement('button');
+            submitButton.textContent = 'Submit';
+            submitButton.addEventListener('click', submitQuiz);
+            navButtons.appendChild(submitButton);
+        }
+
+        questionCard.appendChild(navButtons);
+        quizContainer.appendChild(questionCard);
+    });
+}
+
+// Function to navigate between question cards
+function navigateToCard(index) {
+    const cards = document.querySelectorAll('.question-card');
+    cards.forEach((card, i) => {
+        card.style.display = i === index ? 'block' : 'none';
     });
 }
 
