@@ -15,7 +15,8 @@ Going to avoid hosting this due to probable legal issues
 
 <div align="center">
 <h3> UPDATES </h3>
-<p> V.004 - Added Flags for each question for user to highlight problem questions
+<p> V.004 
+- Added Flags for each question for user to highlight problem questions
 
 - Updated UI so each question now has its own card
 

@@ -55,17 +55,37 @@
 
 body {
     font-family: Aeonik;
-    margin: 20px;
+    
     padding: 0;
-    background-color: antiquewhite;
+    background-color: black;
+    overflow: hidden;
 }
+
+.container {
+  height:100% ;
+  margin: 20px;
+  overflow: hidden;
+}
+
 h1 {
     text-align: center;
+    color: #CC0033;
+    margin-bottom: 10%
 }
 h4 {
     font-weight: bold;
     margin-bottom: 1px; /* Add space between the label and the first question */
 }
+
+#quizContainer {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 
 .question {
     margin-bottom: 20px;
@@ -88,11 +108,11 @@ h4 {
 }
 
 .question-card {
-  border: 1px solid #ccc;
+  
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: antiquewhite;
 }
 
 .nav-buttons {
@@ -131,3 +151,20 @@ h4 {
     font-size: 18px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+h3 {
+    font-size: 1rem;
+
+}
+  
+}
+
+
+@media screen and (min-width: 768px) {
+ .container {
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+
+  }
