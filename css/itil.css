@@ -58,14 +58,13 @@ body {
     
     padding: 0;
     background-color: black;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .container {
   height:100% ;
   margin: 20px;
-  overflow: hidden;
-}
+  }
 
 h1 {
     text-align: center;
@@ -78,13 +77,12 @@ h4 {
 }
 
 #quizContainer {
-  background-color: antiquewhite;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    overflow: visible; /* Ensure the container grows to fit all content */
 }
+
 
 
 .question {
@@ -142,6 +140,7 @@ h4 {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 #submitButton:hover {
     background-color: #45a049;

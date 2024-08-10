@@ -15,10 +15,10 @@ Going to avoid hosting this due to probable legal issues
 
 <div align="center">
 <h3> UPDATES </h3>
-<p> V.004 
-- Added Flags for each question for user to highlight problem questions
+<p> V.1.0.0
+The first release of the test.
 
-- Updated UI so each question now has its own card
+
 
 </p>
 </div>

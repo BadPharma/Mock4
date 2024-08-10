@@ -1382,7 +1382,7 @@ function submitQuiz() {
         // Show an alert listing the unanswered questions
         alert(`Please answer the following questions before submitting: ${unansweredQuestions.join(', ')}`);
     } else {
-        // Once all questions are answered, evaluate the answers
+        // Once all questions are answered, evaluate the answers and display all questions
         selectedQuestions.forEach((q, index) => {
             const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
             const options = document.querySelectorAll(`input[name="question${index}"]`);
@@ -1418,6 +1418,17 @@ function submitQuiz() {
             }
         });
 
+        // Hide the navigation buttons
+        document.querySelectorAll('.nav-buttons').forEach(nav => {
+            nav.style.display = 'none';
+        });
+
+        // Show all question cards
+        document.querySelectorAll('.question-card').forEach(card => {
+            card.style.display = 'block';
+        });
+
+        // Display the result
         const resultElement = document.getElementById('result');
         resultElement.textContent = `You scored ${score} out of ${selectedQuestions.length}`;
     }
