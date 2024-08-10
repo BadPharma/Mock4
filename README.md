@@ -4,9 +4,9 @@
 
 Practice for your upcoming ITIL 4 Foundation.
 
-This test is based of the latest syllabus from AXELOS
+Th questions are based of the latest syllabus from AXELOS. However it is currently missing some question types (missing words)
 
-There are 40 questions in each test. 
+There are 40 questions in each test. 26 is considered a pass
 
 If you refresh the test a new one will begin. There are over 40'000 combinations of questions
 

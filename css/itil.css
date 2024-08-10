@@ -90,6 +90,10 @@ h4 {
     overflow: visible; /* Ensure the container grows to fit all content */
 }
 
+.question-nav-link.flagged {
+  background-color: yellow;
+}
+
 #questionNav{
   max-width: 1200px;
   position: relative;
@@ -190,4 +194,16 @@ a {
   margin-right: 15%;
  }
 
+  }
+
+  @media screen and (min-width: 1920px) {
+    #questionNav {
+      max-width: 1200px;
+      position: relative;
+      background-color: antiquewhite;
+      padding: 10px;
+      position: relative;
+      overflow: scroll;
+ 
+  }
   }

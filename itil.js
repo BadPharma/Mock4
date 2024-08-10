@@ -1286,6 +1286,7 @@ function renderQuiz() {
         navLink.textContent = index + 1;
         navLink.href = '#';
         navLink.className = 'question-nav-link';
+        navLink.dataset.index = index; // Store index in data attribute
         navLink.addEventListener('click', () => navigateToCard(index));
         navDiv.appendChild(navLink);
 
@@ -1313,10 +1314,13 @@ function renderQuiz() {
 
         // Add event listener to highlight the question when flagged
         flagCheckbox.addEventListener('change', function() {
+            const navLink = document.querySelector(`.question-nav-link[data-index="${index}"]`);
             if (this.checked) {
                 questionCard.style.backgroundColor = 'yellow';
+                navLink.classList.add('flagged'); // Add flagged class to nav link
             } else {
                 questionCard.style.backgroundColor = ''; // Reset to default
+                navLink.classList.remove('flagged'); // Remove flagged class from nav link
             }
         });
 
