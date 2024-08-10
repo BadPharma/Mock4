@@ -247,75 +247,996 @@ const questionBank = {
         // More questions for Category 2
     ],
     "2.2": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+    {
+        question: "Which component of the Service Value System (SVS) represents the organization’s overall approach to managing services?",
+        options: ["A) Guiding Principles", "B) Governance", "C) Service Value Chain", "D) Practices"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which component of the Service Value System (SVS) is responsible for ensuring that the organization's practices are effective and efficient?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a purpose of the Service Value Chain?",
+        options: ["A) Create value for stakeholders", "B) Support service management activities", "C) Ensure compliance with legal requirements", "D) Integrate with the organization’s strategies"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which component of the SVS provides the core activities and interactions required to respond to demand and facilitate value creation?",
+        options: ["A) Service Value Chain", "B) Guiding Principles", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle focuses on understanding and meeting the needs of customers and stakeholders?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which component of the SVS includes the roles, responsibilities, and processes that are required to ensure good governance?",
+        options: ["A) Practices", "B) Guiding Principles", "C) Governance", "D) Service Value Chain"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which practice is responsible for the effective management of changes to services?",
+        options: ["A) Change Control", "B) Incident Management", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "What is the primary purpose of the Service Value Chain’s 'Improve' activity?",
+        options: ["A) Enhance customer satisfaction", "B) Identify and resolve service issues", "C) Ensure continual improvement of services", "D) Define service requirements"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which of the following is NOT a role of the Service Value Chain's 'Engage' activity?",
+        options: ["A) Understand customer needs", "B) Manage relationships with stakeholders", "C) Ensure effective communication", "D) Develop new services"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which component of the SVS describes the organization's policies, controls, and structures that guide and monitor service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Practices", "D) Guiding Principles"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following activities is NOT part of the 'Plan' activity in the Service Value Chain?",
+        options: ["A) Define service requirements", "B) Manage service performance", "C) Develop service strategy", "D) Prioritize work efforts"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of starting with what you have and making incremental improvements?",
+        options: ["A) Focus on Value", "B) Start Where You Are", "C) Progress Iteratively with Feedback", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which practice involves handling and resolving incidents to restore service operation as quickly as possible?",
+        options: ["A) Incident Management", "B) Problem Management", "C) Change Control", "D) Service Desk"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS supports the continuous improvement of practices, services, and the overall service management system?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Continual Improvement", "D) Practices"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which activity in the Service Value Chain is responsible for delivering and supporting services?",
+        options: ["A) Deliver and Support", "B) Plan", "C) Improve", "D) Engage"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to collaborate across teams to improve service delivery and value creation?",
+        options: ["A) Collaborate and Promote Visibility", "B) Optimize and Automate", "C) Focus on Value", "D) Start Where You Are"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on managing and controlling the lifecycle of all changes to the IT environment?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves understanding and managing the needs and expectations of stakeholders?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS is used to guide and influence how the organization designs, delivers, and manages its services?",
+        options: ["A) Guiding Principles", "B) Governance", "C) Service Value Chain", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a purpose of the 'Improve' activity in the Service Value Chain?",
+        options: ["A) Optimize processes", "B) Enhance service quality", "C) Respond to changing demands", "D) Create new services"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which practice ensures that the service management system is aligned with business needs and supports organizational objectives?",
+        options: ["A) Continual Improvement", "B) Governance", "C) Service Desk", "D) Service Level Management"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which guiding principle is about making decisions and taking actions based on what is known and understood at the moment?",
+        options: ["A) Progress Iteratively with Feedback", "B) Optimize and Automate", "C) Focus on Value", "D) Start Where You Are"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which of the following is a key consideration for the 'Design and Transition' activity in the Service Value Chain?",
+        options: ["A) Ensuring that new or changed services meet business requirements", "B) Managing service performance and availability", "C) Handling incidents and problems", "D) Engaging with stakeholders"],
+        correctAnswer: "A"
+    },
         // More questions for Category 2
     ],
-    "3.1": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+   "3.1": [
+    {
+        question: "Which of the following is NOT one of the four dimensions of service management?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Products and Services"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which dimension of service management focuses on the organizational structure, roles, and responsibilities?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management is concerned with the technology, tools, and data needed for service management?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "What is the primary focus of the 'Value Streams and Processes' dimension?",
+        options: ["A) Creating value for customers", "B) Managing organizational resources", "C) Implementing technology solutions", "D) Collaborating with external partners"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management encompasses the relationships and dependencies between an organization and external entities?",
+        options: ["A) Partners and Suppliers", "B) Organizations and People", "C) Information and Technology", "D) Value Streams and Processes"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following best describes the 'Organizations and People' dimension of service management?",
+        options: ["A) It focuses on the structure, culture, and roles within the organization.", "B) It deals with the tools and technologies used in service management.", "C) It addresses the processes and workflows needed to deliver services.", "D) It involves managing relationships with external organizations."],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension includes the management of service-related relationships and dependencies with third-party providers?",
+        options: ["A) Partners and Suppliers", "B) Organizations and People", "C) Information and Technology", "D) Value Streams and Processes"],
+        correctAnswer: "A"
+    },
+    {
+        question: "In which dimension would you focus on optimizing the end-to-end delivery of services and managing service performance?",
+        options: ["A) Value Streams and Processes", "B) Organizations and People", "C) Information and Technology", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension involves ensuring that the right technologies and information are available and effectively used?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "What does the 'Partners and Suppliers' dimension emphasize in the context of service management?",
+        options: ["A) Managing external relationships and dependencies", "B) Designing and implementing service processes", "C) Structuring the organization's internal roles", "D) Utilizing information and technology effectively"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension would focus on improving the efficiency and effectiveness of service delivery processes?",
+        options: ["A) Value Streams and Processes", "B) Information and Technology", "C) Organizations and People", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a key aspect of the 'Information and Technology' dimension?",
+        options: ["A) Data management", "B) Organizational culture", "C) Technological infrastructure", "D) Service management tools"],
+        correctAnswer: "B"
+    },
         // More questions for Category 2
     ],
     "4.1": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+    {
+        question: "Which component of the ITIL Service Value System (SVS) ensures that value is co-created with all stakeholders?",
+        options: ["A) Service Value Chain", "B) Guiding Principles", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the ITIL SVS provides a structured approach to implementing service management practices?",
+        options: ["A) Guiding Principles", "B) Governance", "C) Service Value Chain", "D) Practices"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which of the following is a key purpose of the 'Improve' activity within the Service Value Chain?",
+        options: ["A) Ensure effective communication with stakeholders", "B) Enhance the efficiency of processes", "C) Manage and resolve incidents", "D) Design and transition new services"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which guiding principle emphasizes the need to focus on outcomes rather than outputs when delivering value?",
+        options: ["A) Focus on Value", "B) Start Where You Are", "C) Progress Iteratively with Feedback", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the organizational structures, roles, and responsibilities needed to support service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Practices", "D) Guiding Principles"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is concerned with understanding and managing stakeholder needs and expectations?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Plan"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a key characteristic of the ITIL Service Value System (SVS)?",
+        options: ["A) Co-creation of value", "B) Integration of practices", "C) Focus on IT processes only", "D) Flexibility to adapt to different organizational needs"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which guiding principle advises organizations to start with existing resources and capabilities when making changes?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for handling the lifecycle of all changes to services and ensuring they are carried out effectively?",
+        options: ["A) Change Control", "B) Incident Management", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following best describes the role of 'Practices' within the ITIL SVS?",
+        options: ["A) They provide a structured approach to managing specific aspects of service management.", "B) They define the overall strategy for service management.", "C) They guide the governance and oversight of service management activities.", "D) They detail the interactions and processes within the Service Value Chain."],
+        correctAnswer: "A"
+    }
+    ],
+   "5.1": [
+    {
+        question: "Which activity in the Service Value Chain focuses on delivering and supporting services to ensure they meet customer needs?",
+        options: ["A) Deliver and Support", "B) Engage", "C) Design and Transition", "D) Plan"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is a purpose of the 'Engage' activity in the Service Value Chain?",
+        options: ["A) Ensure services are designed and transitioned effectively", "B) Manage and resolve incidents", "C) Understand and manage stakeholder needs and expectations", "D) Improve service performance"],
+        correctAnswer: "C"
+    },
+    {
+        question: "What is the primary purpose of the 'Design and Transition' activity within the Service Value Chain?",
+        options: ["A) Create and implement new or changed services", "B) Handle service requests and incidents", "C) Manage the delivery of services", "D) Evaluate and improve service performance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services are continually improved and adapted to changing needs?",
+        options: ["A) Improve", "B) Deliver and Support", "C) Design and Transition", "D) Engage"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following activities is responsible for planning the overall approach to service management and ensuring alignment with organizational objectives?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves coordinating and managing interactions between an organization and its stakeholders?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Plan"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a purpose of the 'Deliver and Support' activity in the Service Value Chain?",
+        options: ["A) Ensure that services are delivered as agreed", "B) Manage service requests and incidents", "C) Design new services", "D) Monitor and report on service performance"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which activity in the Service Value Chain is focused on ensuring that new or changed services meet their intended outcomes and are delivered effectively?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves the analysis and optimization of service delivery and performance?",
+        options: ["A) Improve", "B) Plan", "C) Deliver and Support", "D) Design and Transition"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following activities is responsible for aligning and optimizing service management practices to support organizational strategies and objectives?",
+        options: ["A) Plan", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
         // More questions for Category 2
     ],
-    "5.1": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
-        // More questions for Category 2
-    ],
-    "5.2": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+   "5.2": [
+    {
+        question: "Which activity in the Service Value Chain is responsible for ensuring that services meet the agreed-upon requirements and continue to deliver value?",
+        options: ["A) Deliver and Support", "B) Design and Transition", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on handling and managing service requests from users?",
+        options: ["A) Service Desk", "B) Incident Management", "C) Change Control", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for maintaining the integrity of service assets and ensuring that they are properly managed and controlled?",
+        options: ["A) Configuration Management", "B) Change Control", "C) Incident Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following practices is focused on minimizing the impact of incidents and problems on service delivery?",
+        options: ["A) Incident Management", "B) Release Management", "C) Change Control", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that new or changed services are properly tested, validated, and deployed into the live environment?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves planning and managing the lifecycle of all changes to services, ensuring they are made with minimal disruption?",
+        options: ["A) Change Control", "B) Release Management", "C) Incident Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for investigating and analyzing the root causes of incidents to prevent future occurrences?",
+        options: ["A) Problem Management", "B) Incident Management", "C) Change Control", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on ensuring that services are delivered in accordance with agreed-upon service levels and performance metrics?",
+        options: ["A) Service Level Management", "B) Incident Management", "C) Change Control", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that services are continually improved and aligned with changing business needs and objectives?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on managing and maintaining the relationships and dependencies with external suppliers and partners?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
         // More questions for Category 2
     ],
     "6.1": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
-        // More questions for Category 2
+    {
+        question: "Which of the following is NOT a purpose of the Service Value System (SVS)?",
+        options: ["A) Ensure that the organization’s services create value", "B) Align IT services with business needs", "C) Define how the organization will create value", "D) Describe the specific service management processes"],
+        correctAnswer: "D"
+    },
+    {
+        question: "What is the primary focus of the Service Value Chain?",
+        options: ["A) Transforming demand into value", "B) Managing organizational culture", "C) Ensuring compliance with regulations", "D) Defining IT governance structures"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS describes the roles and responsibilities necessary to ensure effective service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of starting with existing resources and capabilities?",
+        options: ["A) Start Where You Are", "B) Focus on Value", "C) Progress Iteratively with Feedback", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is focused on understanding and managing stakeholder needs and expectations?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS is used to guide and influence how services are designed, delivered, and managed?",
+        options: ["A) Guiding Principles", "B) Governance", "C) Service Value Chain", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for handling and managing service requests from users?",
+        options: ["A) Service Desk", "B) Change Control", "C) Incident Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is a purpose of the 'Improve' activity in the Service Value Chain?",
+        options: ["A) Ensure services meet customer requirements", "B) Enhance the efficiency of processes", "C) Design and transition new services", "D) Handle incidents and requests"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which component of the SVS includes the organizational structures, roles, and responsibilities needed to support service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Practices", "D) Guiding Principles"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on managing the lifecycle of changes to services and ensuring minimal disruption?",
+        options: ["A) Change Control", "B) Incident Management", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to make decisions based on the current state of understanding?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services are continually improved and aligned with changing needs?",
+        options: ["A) Improve", "B) Deliver and Support", "C) Design and Transition", "D) Engage"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the technology and tools needed for service management?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a purpose of the 'Deliver and Support' activity in the Service Value Chain?",
+        options: ["A) Ensure that services are delivered as agreed", "B) Handle service requests and incidents", "C) Design new services", "D) Monitor and report on service performance"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves planning and managing the overall approach to service management?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that new or changed services are properly tested, validated, and deployed into the live environment?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS describes how governance, practices, and continuous improvement work together to create value?",
+        options: ["A) Service Value Chain", "B) Guiding Principles", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for managing the relationships and dependencies with external suppliers and partners?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves analyzing and optimizing service delivery and performance?",
+        options: ["A) Improve", "B) Plan", "C) Deliver and Support", "D) Design and Transition"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle focuses on the importance of collaborating across teams to improve service delivery?",
+        options: ["A) Collaborate and Promote Visibility", "B) Optimize and Automate", "C) Focus on Value", "D) Start Where You Are"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves managing and controlling the lifecycle of all changes to services, ensuring they are made with minimal disruption?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following is NOT a characteristic of the ITIL Service Value System (SVS)?",
+        options: ["A) Co-creation of value", "B) Integration of practices", "C) Focus on IT processes only", "D) Flexibility to adapt to different organizational needs"],
+        correctAnswer: "C"
+    },
+    {
+        question: "Which dimension of service management focuses on the organizational structure, roles, and responsibilities?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for investigating and analyzing the root causes of incidents to prevent future occurrences?",
+        options: ["A) Problem Management", "B) Incident Management", "C) Change Control", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on ensuring that services are designed and transitioned effectively?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Plan"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the policies, controls, and structures that guide service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that the service management system aligns with business needs and supports organizational objectives?",
+        options: ["A) Service Level Management", "B) Continual Improvement", "C) Service Desk", "D) Governance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of delivering value to the customer and other stakeholders?",
+        options: ["A) Focus on Value", "B) Start Where You Are", "C) Progress Iteratively with Feedback", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following practices is focused on planning and managing the lifecycle of changes to services?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is responsible for understanding and managing stakeholder needs and expectations?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Plan"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management encompasses the relationships and dependencies between the organization and external entities?",
+        options: ["A) Partners and Suppliers", "B) Organizations and People", "C) Information and Technology", "D) Value Streams and Processes"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on ensuring that services are delivered according to agreed-upon service levels and performance metrics?",
+        options: ["A) Service Level Management", "B) Incident Management", "C) Change Control", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for handling and managing service requests and incidents to ensure minimal disruption?",
+        options: ["A) Incident Management", "B) Change Control", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on designing and implementing services to meet customer requirements?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS defines the overall approach to service management and helps to ensure alignment with organizational strategy?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that new or changed services are properly tested, validated, and deployed into the live environment?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to focus on delivering quick wins and iterative improvements?",
+        options: ["A) Progress Iteratively with Feedback", "B) Start Where You Are", "C) Optimize and Automate", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is responsible for managing and controlling the lifecycle of all changes to services?",
+        options: ["A) Change Control", "B) Release Management", "C) Incident Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension focuses on the management of technology, tools, and data necessary for service management?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for analyzing and optimizing service delivery and performance?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS helps to ensure that service management practices are continuously reviewed and improved?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services meet customer needs and expectations through effective delivery and support?",
+        options: ["A) Deliver and Support", "B) Engage", "C) Design and Transition", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle focuses on making decisions based on the current state of knowledge and understanding?",
+        options: ["A) Start Where You Are", "B) Focus on Value", "C) Progress Iteratively with Feedback", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that the service management system aligns with organizational strategies and supports business objectives?",
+        options: ["A) Service Level Management", "B) Continual Improvement", "C) Service Desk", "D) Governance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the effective use of technology, tools, and data?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that services are continually reviewed and improved to meet changing business needs?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle encourages organizations to take a holistic view of the service management system and understand how it impacts the whole organization?",
+        options: ["A) Think and Work Holistically", "B) Focus on Value", "C) Progress Iteratively with Feedback", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on managing and optimizing relationships with external suppliers and partners?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on managing the overall approach to service management and ensuring alignment with organizational strategy?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves managing the lifecycle of all changes to services to ensure minimal disruption and alignment with business needs?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is concerned with designing and transitioning new or changed services?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management involves the management of service-related processes and workflows?",
+        options: ["A) Value Streams and Processes", "B) Information and Technology", "C) Organizations and People", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that services are designed and transitioned effectively to meet business needs and deliver value?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Change Control", "D) Continual Improvement"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which of the following activities is NOT part of the Service Value Chain?",
+        options: ["A) Engage", "B) Deliver and Support", "C) Design and Transition", "D) Control and Monitor"],
+        correctAnswer: "D"
+    },
+    {
+        question: "Which component of the SVS includes the policies and controls that guide and influence service management activities?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that new or changed services meet their intended outcomes and are delivered effectively?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+        
     ],
     "6.2": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+    {
+        question: "Which guiding principle emphasizes the importance of focusing on the outcomes achieved rather than just delivering outputs?",
+        options: ["A) Focus on Value", "B) Progress Iteratively with Feedback", "C) Collaborate and Promote Visibility", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the Service Value System (SVS) describes the interconnected activities that contribute to creating value?",
+        options: ["A) Service Value Chain", "B) Governance", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is concerned with understanding and managing stakeholder needs and expectations?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on planning and managing the lifecycle of all changes to services, ensuring minimal disruption?",
+        options: ["A) Change Control", "B) Incident Management", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for handling service requests and managing the service desk?",
+        options: ["A) Service Desk", "B) Change Control", "C) Incident Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to start with existing resources and capabilities when making improvements?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services are designed and transitioned effectively to meet business needs?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the guidance that organizations use to make decisions and take actions?",
+        options: ["A) Guiding Principles", "B) Service Value Chain", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on ensuring that new or changed services meet their intended outcomes and are delivered with minimal disruption?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of making improvements in small, manageable steps and using feedback to adjust as needed?",
+        options: ["A) Progress Iteratively with Feedback", "B) Start Where You Are", "C) Optimize and Automate", "D) Focus on Value"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on enhancing the efficiency and effectiveness of services and processes?",
+        options: ["A) Improve", "B) Plan", "C) Design and Transition", "D) Deliver and Support"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for managing the relationships and dependencies with external suppliers and partners?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the technology and tools necessary for delivering and managing services?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS describes how governance, practices, and continual improvement work together to create value?",
+        options: ["A) Service Value Chain", "B) Guiding Principles", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on ensuring that services are continually improved to adapt to changing business needs?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to make decisions based on the current state of understanding and adapt as more information becomes available?",
+        options: ["A) Progress Iteratively with Feedback", "B) Focus on Value", "C) Start Where You Are", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on ensuring that services are delivered and supported according to agreed-upon service levels?",
+        options: ["A) Deliver and Support", "B) Design and Transition", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves managing the lifecycle of all changes to services to ensure they are implemented with minimal disruption?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS provides a structured approach to managing specific aspects of service management?",
+        options: ["A) Practices", "B) Service Value Chain", "C) Guiding Principles", "D) Governance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to collaborate with others and share information to enhance service delivery?",
+        options: ["A) Collaborate and Promote Visibility", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on planning and managing the approach to service management to ensure alignment with organizational strategy?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for handling incidents to restore normal service operation as quickly as possible?",
+        options: ["A) Incident Management", "B) Change Control", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the roles, responsibilities, and organizational structures required for effective service management?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
         // More questions for Category 2
     ],
     "7.1": [
-        // Array of questions for Category 2
-        {
-            question: "Which of the following is NOT a key component of the Service Value System (SVS)?",
-            options: ["A) Option 1", "B) Option 2", "C) Option 3", "D) Option 4"],
-            correctAnswer: "D"
-        },
+    {
+        question: "Which of the following best describes the role of the Service Value System (SVS) in ITIL 4?",
+        options: ["A) It outlines the steps needed to deliver and support services", "B) It defines how all components and activities work together to facilitate value creation", "C) It provides detailed guidelines for individual IT service management practices", "D) It focuses on the governance of specific processes"],
+        correctAnswer: "B"
+    },
+    {
+        question: "Which component of the SVS ensures that service management is aligned with the organization’s overall strategy and governance?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for ensuring that services are provided according to agreed-upon service levels and performance metrics?",
+        options: ["A) Service Level Management", "B) Incident Management", "C) Change Control", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of making improvements based on feedback and incremental progress?",
+        options: ["A) Progress Iteratively with Feedback", "B) Focus on Value", "C) Optimize and Automate", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain involves managing relationships with stakeholders and ensuring that their needs are understood and addressed?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice ensures that new or changed services are properly tested, validated, and deployed into the live environment?",
+        options: ["A) Release Management", "B) Change Control", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the guidance that influences how services are designed, delivered, and managed?",
+        options: ["A) Guiding Principles", "B) Governance", "C) Service Value Chain", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is focused on understanding and managing stakeholder needs and expectations?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the resources and capabilities needed to deliver and manage services?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to make improvements in small, manageable steps and use feedback to adjust as needed?",
+        options: ["A) Progress Iteratively with Feedback", "B) Start Where You Are", "C) Optimize and Automate", "D) Focus on Value"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for managing the lifecycle of all changes to services, ensuring they are made with minimal disruption?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services meet customer requirements and deliver value?",
+        options: ["A) Deliver and Support", "B) Design and Transition", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS provides a structured approach to managing specific aspects of service management?",
+        options: ["A) Practices", "B) Service Value Chain", "C) Guiding Principles", "D) Governance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on managing and optimizing relationships with external suppliers and partners?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle focuses on making decisions based on the current state of understanding and adapting as more information becomes available?",
+        options: ["A) Progress Iteratively with Feedback", "B) Focus on Value", "C) Start Where You Are", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management involves managing the technology and tools necessary for delivering and managing services?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is concerned with planning and managing the approach to service management to ensure alignment with organizational strategy?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that services are continually improved to meet changing business needs and enhance value delivery?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes the importance of collaborating with others and sharing information to improve service delivery?",
+        options: ["A) Collaborate and Promote Visibility", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the policies, controls, and structures that guide and influence service management?",
+        options: ["A) Governance", "B) Service Value Chain", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on ensuring that new or changed services are transitioned effectively and meet business needs?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for analyzing and optimizing service delivery and performance to enhance value creation?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the organizational structure, roles, and responsibilities necessary for effective service management?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to make decisions based on the existing resources and capabilities?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is responsible for managing incidents to restore normal service operation as quickly as possible and minimize disruption?",
+        options: ["A) Incident Management", "B) Change Control", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on enhancing the efficiency and effectiveness of services and processes through continual improvement?",
+        options: ["A) Improve", "B) Plan", "C) Design and Transition", "D) Deliver and Support"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS describes how governance, practices, and continual improvement work together to deliver value?",
+        options: ["A) Service Value Chain", "B) Guiding Principles", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management involves managing the service-related processes and workflows necessary for effective service delivery?",
+        options: ["A) Value Streams and Processes", "B) Information and Technology", "C) Organizations and People", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves managing the relationships and dependencies with external suppliers to ensure the quality and performance of their services?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services are delivered according to agreed-upon service levels and support needs?",
+        options: ["A) Deliver and Support", "B) Design and Transition", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle emphasizes making improvements based on the current state of knowledge and adjusting as more information is gathered?",
+        options: ["A) Progress Iteratively with Feedback", "B) Focus on Value", "C) Start Where You Are", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on ensuring that services are designed and transitioned effectively to meet business needs and deliver value?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Change Control", "D) Continual Improvement"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS describes the interconnected activities that facilitate the creation of value through services?",
+        options: ["A) Service Value Chain", "B) Governance", "C) Guiding Principles", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to collaborate and share information to enhance the effectiveness of service delivery?",
+        options: ["A) Collaborate and Promote Visibility", "B) Optimize and Automate", "C) Focus on Value", "D) Progress Iteratively with Feedback"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on managing the lifecycle of all changes to services to ensure minimal disruption and alignment with business needs?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on planning and managing the approach to service management to ensure it aligns with organizational strategy?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves managing incidents to restore normal service operation as quickly as possible and minimize the impact on the business?",
+        options: ["A) Incident Management", "B) Change Control", "C) Problem Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management involves managing the technology and tools necessary for delivering and supporting services?",
+        options: ["A) Information and Technology", "B) Organizations and People", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS includes the guidance used to make decisions and guide actions in service management?",
+        options: ["A) Guiding Principles", "B) Service Value Chain", "C) Governance", "D) Practices"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle focuses on improving services and processes in small, iterative steps based on feedback and evaluation?",
+        options: ["A) Progress Iteratively with Feedback", "B) Focus on Value", "C) Start Where You Are", "D) Optimize and Automate"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice involves ensuring that services are continually improved to adapt to changing business needs and enhance value delivery?",
+        options: ["A) Continual Improvement", "B) Change Control", "C) Incident Management", "D) Release Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain is concerned with understanding stakeholder needs and ensuring their expectations are managed?",
+        options: ["A) Engage", "B) Design and Transition", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management focuses on the roles, responsibilities, and organizational structures required for effective service management?",
+        options: ["A) Organizations and People", "B) Information and Technology", "C) Value Streams and Processes", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which component of the SVS provides a structured approach to managing specific aspects of service management to ensure effective service delivery?",
+        options: ["A) Practices", "B) Service Value Chain", "C) Guiding Principles", "D) Governance"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice is focused on managing and optimizing relationships with external suppliers to ensure the quality and performance of their services?",
+        options: ["A) Supplier Management", "B) Change Control", "C) Release Management", "D) Problem Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain ensures that services are designed and transitioned effectively to meet customer needs and deliver value?",
+        options: ["A) Design and Transition", "B) Deliver and Support", "C) Engage", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which guiding principle advises organizations to make decisions based on existing resources and capabilities and adapt as more information becomes available?",
+        options: ["A) Start Where You Are", "B) Optimize and Automate", "C) Focus on Value", "D) Collaborate and Promote Visibility"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which practice focuses on managing the lifecycle of all changes to services to ensure they are implemented with minimal disruption?",
+        options: ["A) Change Control", "B) Release Management", "C) Configuration Management", "D) Incident Management"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which activity in the Service Value Chain focuses on planning and managing the approach to service management to align with organizational strategy?",
+        options: ["A) Plan", "B) Engage", "C) Deliver and Support", "D) Improve"],
+        correctAnswer: "A"
+    },
+    {
+        question: "Which dimension of service management involves the management of service-related processes and workflows necessary for effective service delivery?",
+        options: ["A) Value Streams and Processes", "B) Information and Technology", "C) Organizations and People", "D) Partners and Suppliers"],
+        correctAnswer: "A"
+    },
         // More questions for Category 2
     ]
     
