@@ -1312,13 +1312,51 @@ function renderQuiz() {
     });
 }
 
-// Function to handle quiz submission
+// Function to handle quiz submission and highlight answers
 function submitQuiz() {
     let score = 0;
+
     selectedQuestions.forEach((q, index) => {
         const selectedOption = document.querySelector(`input[name="question${index}"]:checked`);
-        if (selectedOption && selectedOption.value === q.correctAnswer) {
-            score++;
+        const options = document.querySelectorAll(`input[name="question${index}"]`);
+
+        options.forEach(option => {
+            const optionLabel = option.parentNode;
+            // Clear previous styles
+            optionLabel.style.color = '';
+            optionLabel.style.fontWeight = '';
+        });
+
+        if (selectedOption) {
+            const selectedLabel = selectedOption.parentNode;
+            if (selectedOption.value === q.correctAnswer) {
+                score++;
+                // Highlight correct answer in green
+                selectedLabel.style.color = 'green';
+                selectedLabel.style.fontWeight = 'bold';
+            } else {
+                // Highlight incorrect answer in red
+                selectedLabel.style.color = 'red';
+                selectedLabel.style.fontWeight = 'bold';
+
+                // Find and highlight the correct answer
+                options.forEach(option => {
+                    if (option.value === q.correctAnswer) {
+                        const correctLabel = option.parentNode;
+                        correctLabel.style.color = 'green';
+                        correctLabel.style.fontWeight = 'bold';
+                    }
+                });
+            }
+        } else {
+            // If no option is selected, highlight the correct answer
+            options.forEach(option => {
+                if (option.value === q.correctAnswer) {
+                    const correctLabel = option.parentNode;
+                    correctLabel.style.color = 'green';
+                    correctLabel.style.fontWeight = 'bold';
+                }
+            });
         }
     });
 
