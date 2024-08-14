@@ -1,6 +1,8 @@
 <div align="center">
 <h2> Version PreRelease 6 </h2>
 
+This is not an ITIL affiliated practice exam
+
 
 Practice for your upcoming ITIL 4 Foundation.
 
