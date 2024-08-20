@@ -14,13 +14,16 @@ If you refresh the test a new one will begin. There are over 40'000 combinations
 
 Good luck!!
 
-Just download the files and run it on your local sever from your editor OR use a site like JSfiddle to run the code.
 
-Going to avoid hosting this due to probable legal issues
 </div>
 
 <div align="center">
 <h3> UPDATES </h3>
+Hosted on pages
+
+https://badpharma.github.io/Mock4/
+
+Go try it out!
 
 
 
