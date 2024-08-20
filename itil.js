@@ -1316,7 +1316,7 @@ function renderQuiz() {
         flagCheckbox.addEventListener('change', function() {
             const navLink = document.querySelector(`.question-nav-link[data-index="${index}"]`);
             if (this.checked) {
-                questionCard.style.backgroundColor = 'yellow';
+                questionCard.style.backgroundColor = '#ffc107';
                 navLink.classList.add('flagged'); // Add flagged class to nav link
             } else {
                 questionCard.style.backgroundColor = ''; // Reset to default
@@ -1455,7 +1455,7 @@ function submitQuiz() {
 
         // Display the result
         const resultElement = document.getElementById('result');
-        resultElement.textContent = `You scored ${score} out of ${selectedQuestions.length}`;
+        resultElement.textContent = `You scored ${score} out of ${selectedQuestions.length}. The pass mark is 26`;
     }
 }
 

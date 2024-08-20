@@ -57,22 +57,26 @@ body {
     font-family: Aeonik;
     padding: 0;
     background-color: black;
-    overflow: visible;
+    overflow-y:scroll;
+}
+
+.header{
+  margin-top: 10%;
+  position:relative;
 }
 
 .container {
-  height:100% ;
+  height:100%;
   margin: 20px;
-  align-items: center;
   width: auto;
-
-  
+  align-content: center;
+  overflow: visible;
   }
 
 h1 {
     text-align: center;
     color: #CC0033;
-    margin-bottom: 10%;
+   
     position: relative;
     
 
@@ -90,22 +94,62 @@ h4 {
     overflow: visible; /* Ensure the container grows to fit all content */
 }
 
-.question-nav-link.flagged {
-  background-color: yellow;
-}
-
-#questionNav{
+#questionNav {
   max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  background-color: antiquewhite;
-  padding: 10px;
-  position: relative;
-  overflow:scroll ;
- 
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(10px); /* Glass effect */
+  overflow: hidden;
+  border-radius: 15px; /* Softer corners */
+  margin: 20px auto; /* Updated margin */
+  padding: 10px 15px; /* Adjusted padding */
+  gap: 8px; /* Reduced gap */
 }
 
-.question-nav-link{
- margin-right: 10px;
+.question-nav-link {
+  margin-right: 8px;
+  padding: 10px 15px; /* More padding for better touch targets */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff; /* Primary color */
+  color: white;
+  border-radius: 50px; /* Pill-shaped */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#questionNav a{
+  text-decoration: none;
+  text-align: center;
+
+}
+
+#questionNav::-webkit-scrollbar-track {
+  background-color: #000000;
+  height: 1px;
+}
+
+#questionNav::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  height: 1px;
+
+}
+
+.question-nav-link:hover {
+  background-color: #0056b3; /* Darker on hover */
+  transform: scale(1.25); /* Slight enlargement on hover */
+}
+
+.question-nav-link.flagged {
+  background-color: #ffc107; /* Yellow for flagged questions */
+}
+
+.question-nav-link:focus {
+  background-color: #17a2b8; /* Cyan for focused questions */
+ transform: scale(1.4);
 
 }
 
@@ -177,14 +221,48 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-h3 {
+h1{
+  font-size: calc(2rem + 0.1vw);
+}
+
+  h3 {
     font-size: 1rem;
 
 }
 
+.container{
+  margin-top: 0;
+ align-content: normal;
+}
+
+.question-header{
+  font-size: calc(1rem + 0.3vw);
+
+}
+.options label {
+  font-size: calc(0.8rem + 0.3vw);
+}
 a {
   font-size: 0.8rem;
 }
+
+
+#questionNav {
+justify-content: flex-start;
+flex-wrap: nowrap;
+overflow-x: scroll;
+border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -192,18 +270,25 @@ a {
  .container {
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 15%;
+  align-content: normal;
+
  }
 
   }
 
   @media screen and (min-width: 1920px) {
+    .header {
+      margin-top: 3%;
+    }
+
+    .container {
+      margin-top: 3%;
+    }
+
     #questionNav {
       max-width: 1200px;
       position: relative;
-      background-color: antiquewhite;
       padding: 10px;
-      position: relative;
-      overflow: scroll;
- 
-  }
+     }
   }
